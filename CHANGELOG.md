@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.0 — 2026-10-07
+
+- From zero: `references/build-path.md` with stages S0–S8, what to tell the agent, deliverables and exit gates, plus the feature loop after launch.
+- `references/adapting-to-a-trade.md`: concept map (calipers, torque wrenches, multimeters, pipettes), steps and safety rules for other trades.
+- `SKILL.md`: start-of-session check, companion skills section strongly recommending the Tealun Skills with their repository and install commands, stage mapping, and fallback protocols when a companion skill is missing; version 1.1.0.
+- Templates: project instructions, runtime contract, decision card.
+- README: installation order, from-zero stage table with prompts, updated contents.
+
 ## 1.0.0 — 2026-10-07
 
 First release, distilled from the KELIBRON precision-measurement lab.
