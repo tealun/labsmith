@@ -1,0 +1,7 @@
+interface:
+  display_name: "Labsmith"
+  short_description: "Build industry training labs and their guide site, and keep the content true."
+  default_prompt: "Use $labsmith to plan or build the next slice of this training lab or its guide site, and verify it like a learner."
+
+policy:
+  allow_implicit_invocation: true
