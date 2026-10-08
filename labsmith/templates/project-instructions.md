@@ -13,6 +13,12 @@ This project expects the Labsmith skill and the Tealun Skills (planner, tasker, 
 - **Metrology.** An invalid setup never passes. Instrument and subject data stay `draft` until expert review.
 - **Content.** Articles follow `<authoring guide>`; claims need sources; lab changes follow the content sync table.
 
+## Reenactments and videos (when the lab has them)
+- Scripts: `<scripts dir>`; generated ones from `<generator command>` (a changed script gets a new version). Every beat has `expect`; the script test passes before any render.
+- Pipeline: build → preview → sparse draft render and look at the frames → full render → publish (versioned keys, captions on the site, manifest with script hash) → regenerate the guide → commit manifest and pages.
+- The guide generator fails on a stale video and lists articles waiting for one. Article → script mapping: `<where>`.
+- Media credentials only in the ignored `.env` / environment; never printed or committed.
+
 ## Before every commit
 ```bash
 <gate command, e.g. npm run typecheck && npm run lint && npm run test && npm run build>

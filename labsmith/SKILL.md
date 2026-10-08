@@ -15,7 +15,7 @@ description: >
 argument-hint: "Describe the trade or instrument, learners, current stage (or 'from zero'), stack and repo state, and what you need: plan, lab feature, scenes/media, guide site, SEO/GEO, or content authoring/review/audit."
 user-invocable: true
 disable-model-invocation: false
-version: 1.1.0
+version: 1.2.0
 ---
 
 # Labsmith
@@ -66,6 +66,7 @@ Load only what the task needs:
 - [references/adapting-to-a-trade.md](references/adapting-to-a-trade.md) — mapping a new trade or product onto the instrument–subject–reading–validity–specification pattern, with worked maps, safety rules and what stays the same.
 - [references/lab-engineering.md](references/lab-engineering.md) — domain truth layer, units, validity, wrong-use demos, interaction, camera and transitions, layout, i18n, verification of 3D UI.
 - [references/scenes-and-media.md](references/scenes-and-media.md) — scene deep links, their tests, and recording short lab clips with posters.
+- [references/reenactments.md](references/reenactments.md) — scripted lab films: script format, generated scripts, tests, film/animation clocks, director, canvas captions, follow mode, deterministic offline render, publishing.
 - [references/guide-site.md](references/guide-site.md) — generated guide site: information architecture, templates, styles, internal links, redirects, link check.
 - [references/seo-geo.md](references/seo-geo.md) — audiences and keyword matrix, page-per-intent, metadata, structured data, sitemap, crawler files, post-launch work.
 - [references/content-lifecycle.md](references/content-lifecycle.md) — authoring, periodic review and content audit; sources and terminology; syncing articles with lab releases.

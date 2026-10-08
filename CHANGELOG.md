@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0 — 2026-10-08
+
+- New `references/reenactments.md`: scripted lab films that serve watch mode, follow mode and video from one script — script format, generating routine scripts from presets, the test gate, film vs animation clock (GSAP root timeline), director camera, captions in a 2D canvas, reduced motion and screen readers, deterministic offline rendering, publishing to object storage with versioned keys, and a stale-video check tied to the script hash.
+- `templates/project-instructions.md`: a reenactment and video pipeline section for agent instructions.
+- `SKILL.md`: reference list updated; version 1.2.0.
+
 ## 1.1.0 — 2026-10-07
 
 - From zero: `references/build-path.md` with stages S0–S8, what to tell the agent, deliverables and exit gates, plus the feature loop after launch.
