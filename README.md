@@ -107,7 +107,8 @@ labsmith/
     ├── authoring-guide.md           # 《专题文章创作与更新指南》骨架
     ├── review-guide.md              # 《站点回顾更新指引》骨架
     ├── audit-guide.md               # 《内容审计指引》骨架
-    └── audit-log.md                 # 审计日志模板
+    ├── audit-log.md                 # 审计日志模板
+    └── pipeline-runbook.md          # 内容与媒体流水线运行手册骨架
 ```
 
 **参考资料**是按需加载的详细做法：智能体按当前任务只读需要的那份。**模板**是给你的项目生成文档用的起点。
