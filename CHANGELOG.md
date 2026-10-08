@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.0 — 2026-10-08
+
+- New `references/pipeline-and-handoff.md`: keep articles, scripts, videos and audits complete when agents, sessions or bots change — runbook, doctor self-check, a status board that fails on stale pieces, resumable batch tools, audit marks tied to content hashes, hand-off rules, and how to mutation-test the guards.
+- New `templates/pipeline-runbook.md`; the project-instructions template now points every session to it.
+- `SKILL.md`: references and templates updated; version 1.3.0.
+
 ## 1.2.0 — 2026-10-08
 
 - New `references/reenactments.md`: scripted lab films that serve watch mode, follow mode and video from one script — script format, generating routine scripts from presets, the test gate, film vs animation clock (GSAP root timeline), director camera, captions in a 2D canvas, reduced motion and screen readers, deterministic offline rendering, publishing to object storage with versioned keys, and a stale-video check tied to the script hash.
